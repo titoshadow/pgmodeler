@@ -25,16 +25,18 @@
 #ifndef GQBCOREWIDGET_H
 #define GQBCOREWIDGET_H
 
-#include "ui_gqbcorewidget.h"
+#include "ui_querybuildercorewidget.h"
 #include "pgmodelerns.h"
 #include "modelwidget.h"
 #include "sourcecodewidget.h"
 #include "basetable.h"
 #include <QWidget>
 
-class GqbCoreWidget: public QWidget, public Ui::GqbCoreWidget {
+class QueryBuilderCoreWidget: public QWidget, public Ui::GqbCoreWidget {
 	private:
 		Q_OBJECT
+
+		QMenu reset_menu;
 
 		QMap<int, BaseObjectView *> ord_query_data, ord_query_rels;
 
@@ -68,6 +70,9 @@ class GqbCoreWidget: public QWidget, public Ui::GqbCoreWidget {
 		//! \brief Captures the ENTER press to execute search
 		bool eventFilter(QObject *object, QEvent *event);
 
+		void resizeEvent(QResizeEvent *event);
+		void customDepthFirstSearch(BaseTable * current_vertex);
+
 	public:
 
 		//! \brief Constants for the table widget line numbers
@@ -81,7 +86,7 @@ class GqbCoreWidget: public QWidget, public Ui::GqbCoreWidget {
 		tW_Having=7,
 		tW_Order=8;
 
-		GqbCoreWidget(QWidget *parent = nullptr);
+		QueryBuilderCoreWidget(QWidget *parent = nullptr);
 
 		//! \brief Sets the database model to work on
 		void setModel(ModelWidget *model_wgt);
@@ -90,16 +95,13 @@ class GqbCoreWidget: public QWidget, public Ui::GqbCoreWidget {
 
 		QVector < QPair< BaseTable *, QVector < QPair<Column *, Column *> > > >  getQueryPath(void);
 
-	private:
-		void customDFS(BaseTable * current_vertex);
-
 	signals:
 		void s_visibilityChanged(bool);
 		void s_gqbSqlRequested(QString query_txt);
 
 	public slots:
 		void hide(void);
-		void insertObjects(void);
+		void insertSelection(void);
 		void produceSQL(void);
 		void resetQuery(void);
 };
