@@ -1,7 +1,7 @@
 /*
 # PostgreSQL Database Modeler (pgModeler)
 #
-# Copyright 2006-2018 - Raphael Araújo e Silva <raphael@pgmodeler.io>
+# Copyright 2006-2019 - Raphael Araújo e Silva <raphael@pgmodeler.io>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -2694,7 +2694,7 @@ void ModelWidget::pasteObjects(bool duplicate_mode)
 
 	if(!ModelWidget::cut_operation)
 	{
-		copied_objects.clear();
+		//copied_objects.clear();
 		emit s_objectCreated();
 	}
 	//If its a cut operatoin
@@ -3075,9 +3075,6 @@ void ModelWidget::removeObjects(bool cascade)
 			}
 			catch(Exception &e)
 			{
-				//if(e.getErrorType()==ERR_INVALIDATED_OBJECTS)
-				//  op_list->removeOperations();
-
 				if(op_list->isOperationChainStarted())
 					op_list->finishOperationChain();
 
@@ -3097,6 +3094,10 @@ void ModelWidget::removeObjects(bool cascade)
 				emit s_objectRemoved();
 				msg_box.show(e);
 			}
+
+			/* In case of any object removal we clear the copied objects list in order to avoid
+			 * segfaults when trying to paste an object that was removed previously */
+			copied_objects.clear();
 		}
 	}
 }
