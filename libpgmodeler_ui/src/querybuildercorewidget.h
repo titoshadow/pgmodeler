@@ -18,12 +18,12 @@
 
 /**
 \ingroup libpgmodeler_ui
-\class GqbCoreWidget
+\class QueryBuilderCoreWidget
 \brief Implements a graphical query builder.
 */
 
-#ifndef GQBCOREWIDGET_H
-#define GQBCOREWIDGET_H
+#ifndef QUERYBUILDERCOREWIDGET_H
+#define QUERYBUILDERCOREWIDGET_H
 
 #include "ui_querybuildercorewidget.h"
 #include "pgmodelerns.h"
@@ -68,10 +68,12 @@ class QueryBuilderCoreWidget: public QWidget, public Ui::GqbCoreWidget {
 		ModelWidget *model_wgt;
 
 		//! \brief Captures the ENTER press to execute search
-		bool eventFilter(QObject *object, QEvent *event);
+		bool eventFilter(QObject *object, QEvent *event) override;
 
-		void resizeEvent(QResizeEvent *event);
+		void resizeEvent(QResizeEvent *event) override;
 		void customDepthFirstSearch(BaseTable * current_vertex);
+
+		void initializeColumn(int col_nb, BaseObject *bObj);
 
 	public:
 
@@ -95,15 +97,18 @@ class QueryBuilderCoreWidget: public QWidget, public Ui::GqbCoreWidget {
 
 		QVector < QPair< BaseTable *, QVector < QPair<Column *, Column *> > > >  getQueryPath(void);
 
-	signals:
-		void s_visibilityChanged(bool);
-		void s_gqbSqlRequested(QString query_txt);
-
 	public slots:
 		void hide(void);
 		void insertSelection(void);
 		void produceSQL(void);
 		void resetQuery(void);
+
+	private slots:
+		void rearrangeTabSections(int log, int oldV, int newV);
+
+signals:
+	void s_visibilityChanged(bool);
+	void s_gqbSqlRequested(QString query_txt);
 };
 
-#endif // GQBCOREWIDGET_H
+#endif // QUERYBUILDERCOREWIDGET_H
