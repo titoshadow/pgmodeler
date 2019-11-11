@@ -84,12 +84,12 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/aggregatewidget.ui" line="75"/>
         <source>"Function Inputs"</source>
-        <translation>Entradas de Función:</translation>
+        <translation>Entradas de función:</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/aggregatewidget.ui" line="80"/>
         <source>Function State</source>
-        <translation>Estado de Función</translation>
+        <translation>Estado de función</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/aggregatewidget.ui" line="88"/>
@@ -1379,12 +1379,12 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../libpgmodeler_ui/ui/constraintwidget.ui" line="56"/>
         <source>Match:</source>
-        <translation>Partida:</translation>
+        <translation>Coincidencia:</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/constraintwidget.ui" line="94"/>
         <source>Constraint Type:</source>
-        <translation>Tipo de Restricción:</translation>
+        <translation>Tipo de restricción:</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/constraintwidget.ui" line="107"/>
@@ -1424,7 +1424,7 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../libpgmodeler_ui/ui/constraintwidget.ui" line="330"/>
         <source>Exclude Elements</source>
-        <translation>Excluir Elementos</translation>
+        <translation>Excluir elementos</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/constraintwidget.ui" line="353"/>
@@ -1440,7 +1440,7 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../libpgmodeler_ui/ui/constraintwidget.ui" line="426"/>
         <source>Referenced Columns</source>
-        <translation>Columnas Referenciadas</translation>
+        <translation>Columnas referenciadas</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/constraintwidget.ui" line="507"/>
@@ -1450,7 +1450,7 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../libpgmodeler_ui/ui/constraintwidget.ui" line="524"/>
         <source>Indexing:</source>
-        <translation>Indexación:</translation>
+        <translation>Índices:</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/constraintwidget.ui" line="544"/>
@@ -1461,7 +1461,7 @@ Version: `%3&apos;</source>
         <location filename="../libpgmodeler_ui/src/constraintwidget.cpp" line="54"/>
         <location filename="../libpgmodeler_ui/src/constraintwidget.cpp" line="61"/>
         <source>Column</source>
-        <translation>Column</translation>
+        <translation>Columna</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/constraintwidget.cpp" line="56"/>
@@ -1472,7 +1472,7 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../libpgmodeler_ui/src/constraintwidget.cpp" line="88"/>
         <source>Columns which were included by relationship can not be added / removed manually from the primary key. If done such changes they can raise errors. To create primary key using columns included by relationship use the following options: identifier field, attributes &amp; constraints tab or primary key tab on the relationship form.</source>
-        <translation>Las columnas que se incluyeron por la relación no se pueden añadir / retirado manualmente de la clave principal. Si se hace este tipo de cambios que pueden elevar los errores. Para crear la clave primaria utilizando columnas incluidas por relación utilizar las siguientes opciones: campo de identificador, atributos &amp; limitaciones ficha o pestaña clave principal en el formulario de la relación.</translation>
+        <translation>Las columnas incluídas por la relación no se pueden añadir / quitar manualmente de la clave principal. Si se hace, este tipo de cambios pueden provocar errores. Para crear la clave primaria utilizando columnas incluidas por una relación, utilice las siguientes opciones: campo de identificador, atributos &amp; limitaciones ficha o pestaña clave principal en el formulario de la relación.</translation>
     </message>
 </context>
 <context>
@@ -1480,27 +1480,27 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../libpgmodeler_ui/ui/conversionwidget.ui" line="56"/>
         <source>Source Encoding:</source>
-        <translation>Codificación Fuente:</translation>
+        <translation>Codificación de origen:</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/conversionwidget.ui" line="100"/>
         <source>Target Encoding:</source>
-        <translation>Codificación Destino:</translation>
+        <translation>Codificación destino:</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/conversionwidget.ui" line="147"/>
         <source>Conversion Func.:</source>
-        <translation>Func. Conversión:</translation>
+        <translation>Func. conversión:</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/conversionwidget.ui" line="185"/>
         <source>Default Conversion:</source>
-        <translation>Conversión por Defecto:</translation>
+        <translation>Conversión por defecto:</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/conversionwidget.cpp" line="40"/>
         <source>The function to be assigned to an encoding conversion must have the following signature: &lt;em&gt;void function(integer, integer, cstring, internal, integer)&lt;/em&gt;.</source>
-        <translation>La función que se asigna a una conversión de codificación debe tener la siguiente firma:                                    &lt;em&gt;void función(integer, integer, cstring, internal, integer)&lt;/em&gt;.</translation>
+        <translation>La función que se asigna a una conversión de codificación debe tener la siguiente estructura: &lt;em&gt;void función(integer, integer, cstring, internal, integer)&lt;/em&gt;.</translation>
     </message>
 </context>
 <context>
@@ -1508,7 +1508,7 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../crashhandler/src/crashhandlerform.cpp" line="32"/>
         <source>Crash Handler</source>
-        <translation>Accidente del Handler</translation>
+        <translation>Manejador de fallos</translation>
     </message>
     <message>
         <location filename="../crashhandler/src/crashhandlerform.cpp" line="44"/>
@@ -1528,47 +1528,47 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../crashhandler/src/crashhandlerform.cpp" line="97"/>
         <source>Save the attached model file on the filesystem</source>
-        <translation>Guarde el archivo de modelo que se adjunta en el sistema de archivos</translation>
+        <translation>Guarde el archivo de modelo adjunto.</translation>
     </message>
     <message>
         <location filename="../crashhandler/src/crashhandlerform.cpp" line="174"/>
         <source>pgModeler bug report (*.bug);;All files (*.*)</source>
-        <translation>Reporte de Bog del pgModeler (*.bug);;Todos los archivos (*.*)</translation>
+        <translation>Reporte de bug de pgModeler (*.bug);;Todos los archivos (*.*)</translation>
     </message>
     <message>
         <location filename="../crashhandler/src/crashhandlerform.cpp" line="175"/>
         <source>Load report</source>
-        <translation>Cargando reporte</translation>
+        <translation>Cargar reporte</translation>
     </message>
     <message>
         <location filename="../crashhandler/src/crashhandlerform.cpp" line="199"/>
         <source>Save model</source>
-        <translation>Salvar modelo</translation>
+        <translation>Guardar modelo</translation>
     </message>
     <message>
         <location filename="../crashhandler/src/crashhandlerform.cpp" line="200"/>
         <source>Database model (*.dbm);;All files (*.*)</source>
-        <translation>Modelo de Bases de Datos (*.dbm);;Todos los archivo (*.*)</translation>
+        <translation>Modelo de base de datos (*.dbm);;Todos los archivo (*.*)</translation>
     </message>
     <message>
         <location filename="../crashhandler/src/crashhandlerform.cpp" line="240"/>
         <source>Crash handler</source>
-        <translation>Accidente del Handler</translation>
+        <translation>Manejador de fallos</translation>
     </message>
     <message>
         <location filename="../crashhandler/src/crashhandlerform.cpp" line="241"/>
         <source>Bug report analysis mode activated.</source>
-        <translation>Modo de análisis para informar de fallos activada.</translation>
+        <translation>Modo de análisis para informar de fallos activado.</translation>
     </message>
     <message>
         <location filename="../crashhandler/src/crashhandlerform.cpp" line="245"/>
         <source>Oops! pgModeler just crashed!</source>
-        <translation>¡Huy! pgModeler simplemente cayó!</translation>
+        <translation>¡Huy! pgModeler ha sufrido un fallo!</translation>
     </message>
     <message>
         <location filename="../crashhandler/src/crashhandlerform.cpp" line="246"/>
         <source>We apologize for what happened! It is clear that a nasty bug caused that. Please fill out the form below describing your actions before pgModeler quit unexpectedly. This will help on bug extermination and improve the software.</source>
-        <translation>¡Pedimos disculpas por lo ocurrido! Es evidente que un error desagradable ha causado eso. Rellene el siguiente formulario para describir sus acciones antes de que pgModeler se cierre inesperadamente. Esto ayudará en la exterminación de errores y mejorará el software.</translation>
+        <translation>¡Pedimos disculpas por lo ocurrido! Es evidente que un error desagradable ha causado eso. Rellene el siguiente formulario para describir sus acciones antes de que pgModeler se cierre inesperadamente. Esto ayudará en la resolución de errores y mejorará el software.</translation>
     </message>
 </context>
 <context>
@@ -1606,12 +1606,12 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../libpgmodeler_ui/ui/csvloadwidget.ui" line="129"/>
         <source>Use the first row as column names in the CSV file. By unchecking this option the first row is used as data.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Use la primera fila / cabecera del CSV para indicar los nombres de las columnas. Si desmarca esta opción, la cabecera será considerada como datos.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/csvloadwidget.ui" line="132"/>
         <source>Columns in the first row</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Columnas en la primera fila / cabecera</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/csvloadwidget.ui" line="200"/>
@@ -1621,12 +1621,12 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../libpgmodeler_ui/ui/csvloadwidget.ui" line="241"/>
         <source>Semicolon (;)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Punto y coma (;)</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/csvloadwidget.ui" line="246"/>
         <source>Comma (,)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Coma (,)</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/csvloadwidget.ui" line="251"/>
@@ -1636,37 +1636,37 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../libpgmodeler_ui/ui/csvloadwidget.ui" line="256"/>
         <source>Tabulation</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Tabulado</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/csvloadwidget.ui" line="261"/>
         <source>Other</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Otros</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/csvloadwidget.ui" line="287"/>
         <source>;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">;</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/csvloadwidget.ui" line="307"/>
         <source>Text delimiter:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Indicador de texto</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/csvloadwidget.ui" line="338"/>
         <source>&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&quot;</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/csvloadwidget.cpp" line="68"/>
         <source>Load CSV file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Cargar CSV</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/csvloadwidget.cpp" line="70"/>
         <source>Comma-separted values (*.csv);;All files (*.*)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Campos separados por comas (*.csv);;Todos los archivos (*.*)</translation>
     </message>
 </context>
 <context>
@@ -1674,7 +1674,7 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="26"/>
         <source>Add custom SQL code</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Añadir código SQL personalizado</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="44"/>
@@ -1684,7 +1684,7 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="88"/>
         <source>Puts an SELECT command template at current cursor position.</source>
-        <translation>Pone un comando SELECT en una plantilla en la posición actual de cursor.</translation>
+        <translation>Añadir una plantilla de SELECT en la posición actual de cursor.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="91"/>
@@ -1694,7 +1694,7 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="125"/>
         <source>Puts an INSERT command template at current cursor position.</source>
-        <translation>Pone un comando INSERT en una plantilla en la posición actual de cursor.</translation>
+        <translation>Añadir una plantilla de INSERT en la posición actual de cursor.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="128"/>
@@ -1704,7 +1704,7 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="162"/>
         <source>Puts an UPDATE command template at current cursor position.</source>
-        <translation>Pone un comando UPDATE en una plantilla en la posición actual de cursor.</translation>
+        <translation>Añadir una plantilla de UPDATE en la posición actual de cursor.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="165"/>
@@ -1714,7 +1714,7 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="199"/>
         <source>Puts an DELETE command template at current cursor position.</source>
-        <translation>Pone un comando DELETE en una plantilla en la posición actual de cursor.</translation>
+        <translation>Añadir una plantilla de DELETE en la posición actual de cursor.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="202"/>
@@ -1729,15 +1729,15 @@ Version: `%3&apos;</source>
     <message>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="272"/>
         <source>Append SQL</source>
-        <translation>Adjuntar SQL</translation>
+        <translation>Añadir SQL al final</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="290"/>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="323"/>
         <source>Append the SQL code at the very end of model definition.
 Unchecking this will cause the SQL to be appended at the end of CREATE DATABASE command.</source>
-        <translation>Anexe el código SQL en el final de la determinación del modelo.
-Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DATABASE.</translation>
+        <translation>Añadir el código SQL al final de la definición del modelo.
+Desmarcando esto hará que el SQL se adjunte al final de la orden CREATE DATABASE.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="294"/>
@@ -1747,12 +1747,12 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="305"/>
         <source>Prepend SQL</source>
-        <translation>Prefijar SQL</translation>
+        <translation>Añadir SQL al principio</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="327"/>
         <source>Prepend at beginning of model definition.</source>
-        <translation>Prefijar al comienzo de la determinación del modelo.</translation>
+        <translation>Añadir al comienzo de la definición del modelo.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/customsqlwidget.ui" line="411"/>
@@ -1767,12 +1767,12 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/customsqlwidget.cpp" line="50"/>
         <source>Include serial columns</source>
-        <translation>Incluir columnas serial</translation>
+        <translation>Incluir columnas en serie</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/customsqlwidget.cpp" line="52"/>
         <source>Exclude serial columns</source>
-        <translation>Excluir columnas serial</translation>
+        <translation>Excluir columnas en serie</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/customsqlwidget.cpp" line="54"/>
@@ -1787,12 +1787,12 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/customsqlwidget.cpp" line="58"/>
         <source>Generic UPDATE</source>
-        <translation></translation>
+        <translation>UPDATE genérico</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/customsqlwidget.cpp" line="60"/>
         <source>Table UPDATE</source>
-        <translation>UPDATE genérico</translation>
+        <translation>UPDATE tabla</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/customsqlwidget.cpp" line="62"/>
@@ -1810,7 +1810,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="20"/>
         <source>Data Manipulation</source>
-        <translation>Manipulación de Datos</translation>
+        <translation>Manipulación de datos</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="114"/>
@@ -1820,7 +1820,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="334"/>
         <source>Refresh listing</source>
-        <translation>Refrescar listado</translation>
+        <translation>Actualizar lista</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="347"/>
@@ -1830,7 +1830,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="371"/>
         <source>Save changes</source>
-        <translation>Salvar cambios</translation>
+        <translation>Guardar cambios</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="384"/>
@@ -1840,7 +1840,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="485"/>
         <source>Export results to CSV file</source>
-        <translation>Exportar resultados a archivo CSV</translation>
+        <translation>Exportar resultados a CSV</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="498"/>
@@ -1880,7 +1880,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="686"/>
         <source>Change the values of all selected cells at once</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Cambiar los valores de todas las celdas seleccionadas a la vez</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="699"/>
@@ -1890,17 +1890,17 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="723"/>
         <source>Duplicate the selected rows</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Duplicar las filas seleccionadas</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="736"/>
         <source>Ctrl+D</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ctrl+D</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="771"/>
         <source>Add new rows from a CSV file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Añadir nuevas filas desde CSV</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="811"/>
@@ -1920,12 +1920,12 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="933"/>
         <source>in </source>
-        <translation>in </translation>
+        <translation>en </translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="989"/>
         <source>Hide views</source>
-        <translation>Ocultar vista</translation>
+        <translation>Ocultar vistas</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="1167"/>
@@ -1940,7 +1940,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="1491"/>
         <source>results (Use &lt;strong&gt;0&lt;/strong&gt; for no limit)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">resultados (Use &lt;strong&gt;0&lt;/strong&gt; para ilimitado)</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="1478"/>
@@ -1950,17 +1950,17 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="258"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Empty values are assumed as &lt;span style=&quot; font-weight:600;&quot;&gt;DEFAULT&lt;/span&gt;. To use special values like &lt;span style=&quot; font-weight:600;&quot;&gt;NULL&lt;/span&gt;, a function call like &lt;span style=&quot; font-weight:600;&quot;&gt;now()&lt;/span&gt; or a specific data escaping, enclose values in two slashes, e.g., &lt;span style=&quot; font-weight:600;&quot;&gt;/value/&lt;/span&gt;. To use a slash as part of the value prepend the backslash character, e.g., &lt;span style=&quot; font-weight:600;&quot;&gt;\/&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt; Valores vacíos se asumen como &lt;span style=&quot; font-weight:600;&quot;&gt;DEFAULT&lt;/span&gt;. Para usar valores especiales como &lt;span style=&quot; font-weight:600;&quot;&gt;NULL&lt;/span&gt;, una llamada a función como &lt;span style=&quot; font-weight:600;&quot;&gt;now()&lt;/span&gt; o un escapado específico de datos, use doble contrabarra, e.g., &lt;span style=&quot; font-weight:600;&quot;&gt;/value/&lt;/span&gt;. Para usar una barra ("/") como parte del valor, debe usar "\\" delante de la misma, e.g., &lt;span style=&quot; font-weight:600;&quot;&gt;\/&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="408"/>
         <source>Copy items on the grid</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Copiar elementos de la cuadrícula</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="445"/>
         <source>Paste items on the grid</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Pegar elementos de la cuadrícula</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="458"/>
@@ -1970,7 +1970,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="522"/>
         <source>Browse referenced tables</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Explorar tablas referenciadas</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="1526"/>
@@ -1980,7 +1980,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="612"/>
         <source>Add empty rows</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Añadir filas vacías</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="1542"/>
@@ -1995,77 +1995,77 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="1260"/>
         <source>Add Item</source>
-        <translation>Añadir Item</translation>
+        <translation>Añadir elemento</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="1298"/>
         <source>Remove Item</source>
-        <translation>Eliminar Item</translation>
+        <translation>Eliminar elemento</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="1336"/>
         <source>Clear the order by columns list</source>
-        <translation>Desactive el orden de lista columnas</translation>
+        <translation>Desactive el orden por lista columnas</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="1374"/>
         <source>Move selected item up</source>
-        <translation>Mover arriba el item seleccionado</translation>
+        <translation>Mover arriba el elemento seleccionado</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/datamanipulationform.ui" line="1412"/>
         <source>Move selected item down</source>
-        <translation>Mover abajo el item seleccionado</translation>
+        <translation>Mover abajo el elemento seleccionado</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="54"/>
         <source>Copy as CSV</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Copiar como CSV</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="62"/>
         <source>Copy as text</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Copiar como texto</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="148"/>
         <source>Copy items</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Copiar elementos</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="151"/>
         <source>Pase items</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Pegar elementos</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="159"/>
         <source>Browse tables</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Explorar tablas</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="164"/>
         <source>Duplicate row(s)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Duplicar fila(s)</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="167"/>
         <source>Delete row(s)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Borrar fila(s)</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="170"/>
         <source>Edit cell(s)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Editar celda(s)</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="304"/>
         <source>&lt;strong&gt;WARNING: &lt;/strong&gt; There are some changed rows waiting the commit! Do you really want to discard them and retrieve the data now?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;strong&gt;ATENCIÓN: &lt;/strong&gt; Hay cambios no guardados en las columnas! ¿Quieres descartarlos y cargar los datos anteriores?</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="352"/>
         <source>Rows returned: &lt;strong&gt;%1&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Filas devueltas: &lt;strong&gt;%1&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="353"/>
@@ -2075,48 +2075,48 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="353"/>
         <source>none</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ninguno</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="382"/>
         <source>Column</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Columna</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="646"/>
         <source>No objects found</source>
-        <translation>Objects no encontrado</translation>
+        <translation>No se encontraron objetos</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="648"/>
         <source>Found %1 object(s)</source>
-        <translation>Encontrado %1 objecto(s)</translation>
+        <translation>Encontrado(s) %1 objeto(s)</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="678"/>
         <source>Views can&apos;t have their data handled through this grid, this way, all operations are disabled.</source>
-        <translation>Las vistas no pueden tener sus datos manejados a través de esta red, de esta manera, todas las operaciones están desactivadas.</translation>
+        <translation>Las vistas no pueden tener sus datos manejados a través de esta red, por lo que todas las operaciones están desactivadas.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="689"/>
         <source>The selected table doesn&apos;t owns a primary key! Updates and deletes will be performed by considering all columns as primary key. &lt;strong&gt;WARNING:&lt;/strong&gt; those operations can affect more than one row.</source>
-        <translation>La tabla seleccionada no posee una clave primaria! Las actualizaciones y eliminaciones se realizarán teniendo en cuenta todas las columnas como clave primaria. &lt;strong&gt;WARNING:&lt;/strong&gt; estas operaciones pueden afectar a más de una fila.</translation>
+        <translation>La tabla seleccionada no posee una clave primaria! Las actualizaciones y eliminaciones se realizarán teniendo en cuenta todas las columnas como clave primaria. &lt;strong&gt;ATENCIÓN:&lt;/strong&gt; estas operaciones pueden afectar a más de una fila.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="761"/>
         <source>Referenced tables</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Tablas referenciadas</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="764"/>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="813"/>
         <source>(none)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(none)</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="810"/>
         <source>Referrer tables</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Tablas referenciadas</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="861"/>
@@ -2146,7 +2146,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="1211"/>
         <source>&lt;strong&gt;WARNING:&lt;/strong&gt; Once commited its not possible to undo the changes! Proceed with saving?</source>
-        <translation>&lt;strong&gt;WARNING:&lt;/strong&gt; Una vez que su cometido no es posible deshacer los cambios! Procedo con salvar?</translation>
+        <translation>&lt;strong&gt;ATENCIÓN:&lt;/strong&gt; Una vez guardados, no es posible deshacer los cambios! ¿Guardamos igualmente?</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/datamanipulationform.cpp" line="1242"/>
@@ -2195,7 +2195,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/databaseexplorerwidget.ui" line="125"/>
         <source>Open the grid to visualize or edit data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Abrir para visualizar o editar</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/databaseexplorerwidget.ui" line="154"/>
@@ -2215,17 +2215,17 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/databaseexplorerwidget.ui" line="48"/>
         <source>Toggle the display of filter widget as well the system/extension objects.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Activar el widget de filtros y objetos de sistema/extensiones</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/databaseexplorerwidget.ui" line="85"/>
         <source>Sort items alphabetically. When unchecked, items are sorted by OID.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Si se desactiva, los objetos se ordenan mediante OID</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/databaseexplorerwidget.ui" line="88"/>
         <source>Sort alphabetically</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ordenar alfabéticamente</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/databaseexplorerwidget.ui" line="203"/>
@@ -2235,17 +2235,17 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/databaseexplorerwidget.ui" line="379"/>
         <source>Expands all items</source>
-        <translation>Expande todos los item</translation>
+        <translation>Expande todos los elementos</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/databaseexplorerwidget.ui" line="411"/>
         <source>Collapses all items</source>
-        <translation>Contrae todos los item</translation>
+        <translation>Contrae todos los elementos</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/databaseexplorerwidget.ui" line="460"/>
         <source>Filters the currently loaded items in the tree by using a pattern and matching their names. If &lt;strong&gt;By OID&lt;/strong&gt; is checked the pattern is interpreted as an integer value that represents the object id (OID). &lt;br&gt;&lt;br/&gt;&lt;strong&gt;HINT:&lt;/strong&gt; if you need to search the entire database use the full refresh (&lt;strong&gt;Ctrl+F5&lt;/strong&gt;) prior the filtering.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Filtra por nombre los elementos cargados en el árbol con un patrón. Si &lt;strong&gt;Por OID&lt;/strong&gt; está marcado, el patrón se interpretará como un entero que identifica al objeto (OID). &lt;br&gt;&lt;br/&gt;&lt;strong&gt;CONSEJO:&lt;/strong&gt; si necesita buscar en toda la BD, use la actualización completa (&lt;strong&gt;Ctrl+F5&lt;/strong&gt;) antes de filtrar.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/databaseexplorerwidget.ui" line="463"/>
@@ -2271,22 +2271,22 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/ui/databaseexplorerwidget.ui" line="616"/>
         <source>Show raw attributes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mostrar atributos en bruto</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="30"/>
         <source>(not found, OID: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(no encontrado, OID: %1)</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="32"/>
         <source>-- Source code not generated! Hit F7 or middle-click the item to load it. --</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-- Código no generado! Pulsa F7 o usa el clic de la rueda sobre el elemento para cargarlo. --</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="35"/>
         <source>Admin. roles</source>
-        <translation>Admin. roles</translation>
+        <translation>Roles admin.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="35"/>
@@ -2301,32 +2301,32 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="36"/>
         <source>Arg. count</source>
-        <translation>Arg. Contar</translation>
+        <translation>Cantidad argumentos</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="36"/>
         <source>Arg. default count</source>
-        <translation>Arg. contar por defecto</translation>
+        <translation>Cantidad argumentos por defecto</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="36"/>
         <source>Arg. defaults</source>
-        <translation>Arg. por defecto</translation>
+        <translation>Argumentos por defecto</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="37"/>
         <source>Arg. modes</source>
-        <translation>Arg. modos</translation>
+        <translation>Modo argumentos</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="37"/>
         <source>Arg. names</source>
-        <translation>Arg. nombres</translation>
+        <translation>Nombres argumentos</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="37"/>
         <source>Arg. types</source>
-        <translation>Arg. tipos</translation>
+        <translation>Tipos argumento</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="38"/>
@@ -2346,7 +2346,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="39"/>
         <source>Category</source>
-        <translation>Categoria</translation>
+        <translation>Categoría</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="39"/>
@@ -2366,7 +2366,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="40"/>
         <source>Commutator Op.</source>
-        <translation>Commutador Op.</translation>
+        <translation>Conmutador Op.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="41"/>
@@ -2397,7 +2397,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="42"/>
         <source>Curr. version</source>
-        <translation>Corr. versión</translation>
+        <translation>Versión actual</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="43"/>
@@ -2422,7 +2422,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="44"/>
         <source>Dest. type</source>
-        <translation>Dest. tipo</translation>
+        <translation>Tipo de destino</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="44"/>
@@ -2462,7 +2462,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="47"/>
         <source>Exec. cost</source>
-        <translation>Costo ejec</translation>
+        <translation>Costo ejecución</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="47"/>
@@ -2472,12 +2472,12 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="47"/>
         <source>Op. family</source>
-        <translation>Op. familia</translation>
+        <translation>Familia operadores</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="48"/>
         <source>Final func.</source>
-        <translation>Final func.</translation>
+        <translation>Función final</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="48"/>
@@ -2487,17 +2487,17 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="48"/>
         <source>Func. type</source>
-        <translation>Func. tipo</translation>
+        <translation>Tipo funciones</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="49"/>
         <source>Handler func.</source>
-        <translation>Handler func.</translation>
+        <translation>Funciones de manejo</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="49"/>
         <source>Handles type</source>
-        <translation>Handles tipo</translation>
+        <translation>Tipos manejador</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="49"/>
@@ -2517,17 +2517,17 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="50"/>
         <source>Ini. condition</source>
-        <translation>Ini. condición</translation>
+        <translation>Condición inicial</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="51"/>
         <source>Inline func.</source>
-        <translation>En linea func.</translation>
+        <translation>Funciones en linea</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="51"/>
         <source>Input func.</source>
-        <translation>Entrada func.</translation>
+        <translation>Funciones entrada</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="51"/>
@@ -2537,22 +2537,22 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="52"/>
         <source>Interval type</source>
-        <translation>Intervalo tipo</translation>
+        <translation>Tipo intervalo</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="52"/>
         <source>I/O cast</source>
-        <translation>I/O cast</translation>
+        <translation>Conversión E/S</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="52"/>
         <source>Join func.</source>
-        <translation>Join func.</translation>
+        <translation>Funciones Join</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="53"/>
         <source>Language</source>
-        <translation>Languaje</translation>
+        <translation>Lenguaje</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="53"/>
@@ -2587,7 +2587,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="55"/>
         <source>Can login</source>
-        <translation>Puede login</translation>
+        <translation>Puede loguear</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="55"/>
@@ -2612,17 +2612,17 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="57"/>
         <source>Negator op.</source>
-        <translation>Op negador.</translation>
+        <translation>Op negador</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="57"/>
         <source>Not null</source>
-        <translation>No null</translation>
+        <translation>No nulo</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="57"/>
         <source>Object type</source>
-        <translation>Tipo object</translation>
+        <translation>Tipo objeto</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="58"/>
@@ -2637,7 +2637,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="58"/>
         <source>Old version</source>
-        <translation>Vieja version</translation>
+        <translation>Versión antigua</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="59"/>
@@ -2717,7 +2717,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="64"/>
         <source>Return type</source>
-        <translation>Retornar tipo</translation>
+        <translation>Tipo de retorno</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="64"/>
@@ -2727,7 +2727,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="64"/>
         <source>Right type</source>
-        <translation>Tipo a la derecha</translation>
+        <translation>Tipo correcto</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="65"/>
@@ -2912,7 +2912,7 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="77"/>
         <source>For each row</source>
-        <translation>For each row</translation>
+        <translation>Por cada fila</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="77"/>
@@ -2938,8 +2938,8 @@ Desmarcando esto hará que el SQL que se adjunta al final del mandato CREATE DAT
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="79"/>
-        <source>On truncate</source>
-        <translation>On truncate</translation>
+        <source>ON TRUNCATE</source>
+        <translation>ON TRUNCATE</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/databaseexplorerwidget.cpp" line="79"/>
@@ -3426,7 +3426,7 @@ Ref. column(s): %2</source>
         <location filename="../libpgmodeler_ui/ui/databaseimportform.ui" line="35"/>
         <location filename="../libpgmodeler_ui/ui/databaseimportform.ui" line="122"/>
         <source>Import database</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Importar base de datos</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/databaseimportform.ui" line="276"/>
@@ -5497,7 +5497,7 @@ Mensage retornada por el SGBD: `%1&apos;</translation>
     <message>
         <location filename="../libpgmodeler_ui/ui/generalconfigwidget.ui" line="330"/>
         <source>Save and restore last position and zoom</source>
-        <translation>Salvar y restaurar la última posición y el zoom</translation>
+        <translation>Guardar y restaurar la última posición y el zoom</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/generalconfigwidget.ui" line="724"/>
@@ -7724,7 +7724,7 @@ Mensage retornada por el SGBD: `%1&apos;</translation>
     <message>
         <location filename="../libpgmodeler_ui/src/modeldatabasediffform.cpp" line="877"/>
         <source>Save diff as...</source>
-        <translation>Salvar diff como...</translation>
+        <translation>Guardar diff como...</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/modeldatabasediffform.cpp" line="881"/>
@@ -14070,7 +14070,7 @@ Relación:  %1</translation>
     <message>
         <location filename="../libpgmodeler_ui/src/viewwidget.cpp" line="77"/>
         <source>To reference all columns in a table (*) just do not fill the field &lt;strong&gt;Column&lt;/strong&gt;, this is the same as write &lt;em&gt;&lt;strong&gt;[schema].[table].*&lt;/strong&gt;&lt;/em&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Para referenciar todas las columnas en una tabla (*) no rellene únicamente el campo &lt;strong&gt;Columna&lt;/strong&gt;, es lo mismo que escribir &lt;em&gt;&lt;strong&gt;[esquema].[tabla].*&lt;/strong&gt;&lt;/em&gt;</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/viewwidget.cpp" line="105"/>
@@ -14082,12 +14082,12 @@ Relación:  %1</translation>
     <message>
         <location filename="../libpgmodeler_ui/src/viewwidget.cpp" line="107"/>
         <source>Refer. Table</source>
-        <translation>Refer. Tabla</translation>
+        <translation>Tabla referenciada</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/viewwidget.cpp" line="109"/>
         <source>Firing</source>
-        <translation>Firing</translation>
+        <translation>Disparadores</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/viewwidget.cpp" line="111"/>
@@ -14097,7 +14097,7 @@ Relación:  %1</translation>
     <message>
         <location filename="../libpgmodeler_ui/src/viewwidget.cpp" line="116"/>
         <source>Indexing</source>
-        <translation>Indexación</translation>
+        <translation>Indización</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/viewwidget.cpp" line="121"/>
@@ -14112,7 +14112,7 @@ Relación:  %1</translation>
     <message>
         <location filename="../libpgmodeler_ui/src/viewwidget.cpp" line="710"/>
         <source>/* Could not generate the SQL code. Make sure all attributes are correctly filled! </source>
-        <translation>/ * No se pudo generar el código SQL. Asegúrese de que todos los atributos se rellenan correctamente! </translation>
+        <translation>/ * No se pudo generar el código SQL. Asegúrese de que todos los atributos están correctamente rellenados! </translation>
     </message>
 </context>
 <context>
