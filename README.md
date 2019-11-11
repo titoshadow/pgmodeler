@@ -13,6 +13,8 @@ pgModeler - PostgreSQL Database Modeler - is an open source data modeling tool d
 
 Please, let me know how the pgModeler is working on your system! Help to improve this project, give your feedback about the software or report any bug at [Issues](https://github.com/pgmodeler/pgmodeler/issues) page. Additionaly, follow the pgModeler profile on [Facebook](https://www.facebook.com/pgmodeler) or [Twitter](https://twitter.com/pgmodeler) and be up-to-date with new features, fixes and releases.
 
+This fork is intended to improve the Spanish translation.
+
 Licensing
 ---------
 
