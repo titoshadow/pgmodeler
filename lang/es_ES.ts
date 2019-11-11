@@ -16,7 +16,7 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/aboutwidget.ui" line="184"/>
         <source>build:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">compilación:</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/aboutwidget.ui" line="282"/>
@@ -31,12 +31,12 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/aboutwidget.ui" line="445"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://pgmodeler.com.br&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;https://pgmodeler.io&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://pgmodeler.com.br&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;https://pgmodeler.io&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/aboutwidget.ui" line="486"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Copyright 2006-2018 - Raphael Araújo e Silva &amp;lt;&lt;a href=&quot;mailto:raphael@pgmodeler.com.br&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;raphael@pgmodeler.io&lt;/span&gt;&lt;/a&gt;&amp;gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Copyright 2006-2018 - Raphael Araújo e Silva &amp;lt;&lt;a href=&quot;mailto:raphael@pgmodeler.com.br&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;raphael@pgmodeler.io&lt;/span&gt;&lt;/a&gt;&amp;gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/aboutwidget.ui" line="461"/>
@@ -56,7 +56,7 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/aboutwidget.ui" line="244"/>
         <source>(BUILD_NUM)</source>
-        <translation>(NUM_CONSTRUIDO)</translation>
+        <translation>(NUM_COMPILACION)</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/aboutwidget.ui" line="384"/>
@@ -79,12 +79,12 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/aggregatewidget.ui" line="52"/>
         <source>Initial Condition:</source>
-        <translation>Condition Initial:</translation>
+        <translation>Condición inicial:</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/aggregatewidget.ui" line="75"/>
-        <source>Funtion Inputs</source>
-        <translation>Entradas de Funciones</translation>
+        <source>"Function Inputs"</source>
+        <translation>Entradas de Función:</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/aggregatewidget.ui" line="80"/>
@@ -99,12 +99,12 @@
     <message>
         <location filename="../libpgmodeler_ui/src/aggregatewidget.cpp" line="37"/>
         <source>Input Data Type</source>
-        <translation>Tipo de Datos de Entrada</translation>
+        <translation>Tipo de datos de entrada</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/aggregatewidget.cpp" line="38"/>
         <source>State Data Type</source>
-        <translation>Tipo de Dato de Estado</translation>
+        <translation>Tipo de dato de estado</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/aggregatewidget.cpp" line="65"/>
@@ -132,7 +132,7 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="72"/>
         <source>Global: Constraints descriptor</source>
-        <translation>Global: Descritor de restricciones</translation>
+        <translation>Global: Descriptor de restricciones</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="77"/>
@@ -147,7 +147,7 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="87"/>
         <source>Global: Position hint box</source>
-        <translation>Global: Cuadro de informativo de la Posición</translation>
+        <translation>Global: Cuadro informativo de posición</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="92"/>
@@ -197,7 +197,7 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="137"/>
         <source>Rule: Descriptor</source>
-        <translation>Regra: Descriptor</translation>
+        <translation>Regla: Descriptor</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="142"/>
@@ -222,12 +222,12 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="162"/>
         <source>Constraint: Name</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Restricción: Nombre</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="167"/>
         <source>Constraint: Descriptor</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Restricción: Descriptor</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="172"/>
@@ -242,7 +242,7 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="182"/>
         <source>View: References box</source>
-        <translation>Vista: Cuadro de referéncias</translation>
+        <translation>Vista: Cuadro de referencias</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="187"/>
@@ -257,7 +257,7 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="197"/>
         <source>View: Table / columns alias</source>
-        <translation>Vista: Tabla / columna alias</translation>
+        <translation>Vista: Tabla / alias de columna</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="202"/>
@@ -272,7 +272,7 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="212"/>
         <source>View: Reference descriptor</source>
-        <translation>Vista: Descritor de Referencia</translation>
+        <translation>Vista: Descriptor de referencia</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="217"/>
@@ -287,12 +287,12 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="227"/>
         <source>Column: Descriptor</source>
-        <translation>Columna: Descritor</translation>
+        <translation>Columna: Descriptor</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="232"/>
         <source>Column: Included / Inherited by relationship</source>
-        <translation>Columna: Incluída / Herendado por relación</translation>
+        <translation>Columna: Incluída / Heredada por relación</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="237"/>
@@ -307,7 +307,7 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="247"/>
         <source>Column (pk): Descriptor</source>
-        <translation>Columna (fk): Descritor</translation>
+        <translation>Columna (fk): Descriptor</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="252"/>
@@ -317,7 +317,7 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="257"/>
         <source>Column (fk): Descriptor</source>
-        <translation>Columna (fk): Descritor</translation>
+        <translation>Columna (fk): Descriptor</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="262"/>
@@ -327,7 +327,7 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="267"/>
         <source>Column (uq): Descriptor</source>
-        <translation>Columna (uq): Descritor</translation>
+        <translation>Columna (uq): Descriptor</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="272"/>
@@ -337,12 +337,12 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="277"/>
         <source>Column (nn): Descriptor</source>
-        <translation>Columna (nn): Descritor</translation>
+        <translation>Columna (nn): Descriptor</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="282"/>
         <source>Relationship: Descriptor</source>
-        <translation>Relación: Descritor</translation>
+        <translation>Relación: Descriptor</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="287"/>
@@ -362,22 +362,22 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="302"/>
         <source>Relationship: Attribute descriptor</source>
-        <translation>Relación: Descritor del atributo</translation>
+        <translation>Relación: Descriptor del atributo</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="307"/>
         <source>Tag: Name</source>
-        <translation>Tag: Nombre</translation>
+        <translation>Etiqueta: Nombre</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="312"/>
         <source>Tag: Body</source>
-        <translation>Tag: Cuerpo</translation>
+        <translation>Etiqueta: Cuerpo</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="317"/>
         <source>Placeholder: Body</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Marcador de posición: Cuerpo</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="331"/>
@@ -402,12 +402,12 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="419"/>
         <source>Italic</source>
-        <translation>Itálico</translation>
+        <translation>Cursiva</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/appearanceconfigwidget.ui" line="438"/>
         <source>Bold</source>
-        <translation>Negrito</translation>
+        <translation>Negrita</translation>
     </message>
 </context>
 <context>
@@ -436,7 +436,7 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/baseform.ui" line="23"/>
         <source>Dialog</source>
-        <translation>Dialogo</translation>
+        <translation>Diálogo</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/baseform.ui" line="141"/>
@@ -480,7 +480,7 @@
     <message>
         <location filename="../libpgmodeler/src/baseobject.cpp" line="42"/>
         <source>Trigger</source>
-        <translation>Trigger</translation>
+        <translation>Disparador</translation>
     </message>
     <message>
         <location filename="../libpgmodeler/src/baseobject.cpp" line="42"/>
@@ -505,7 +505,7 @@
     <message>
         <location filename="../libpgmodeler/src/baseobject.cpp" line="43"/>
         <source>Domain</source>
-        <translation>Domínio</translation>
+        <translation>Dominio</translation>
     </message>
     <message>
         <location filename="../libpgmodeler/src/baseobject.cpp" line="44"/>
@@ -560,12 +560,12 @@
     <message>
         <location filename="../libpgmodeler/src/baseobject.cpp" line="47"/>
         <source>Operator Family</source>
-        <translation>Família de Operadores</translation>
+        <translation>Familia de Operadores</translation>
     </message>
     <message>
         <location filename="../libpgmodeler/src/baseobject.cpp" line="47"/>
         <source>Operator Class</source>
-        <translation>Operador de Clases</translation>
+        <translation>Operador de clases</translation>
     </message>
     <message>
         <location filename="../libpgmodeler/src/baseobject.cpp" line="48"/>
@@ -585,7 +585,7 @@
     <message>
         <location filename="../libpgmodeler/src/baseobject.cpp" line="49"/>
         <source>Event Trigger</source>
-        <translation>Evento Trigger</translation>
+        <translation>Disparador de evento</translation>
     </message>
     <message>
         <location filename="../libpgmodeler/src/baseobject.cpp" line="49"/>
@@ -595,7 +595,7 @@
     <message>
         <location filename="../libpgmodeler/src/baseobject.cpp" line="49"/>
         <source>Policy</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Política</translation>
     </message>
     <message>
         <location filename="../libpgmodeler/src/baseobject.cpp" line="50"/>
@@ -605,7 +605,7 @@
     <message>
         <location filename="../libpgmodeler/src/baseobject.cpp" line="50"/>
         <source>Permission</source>
-        <translation>Permisos</translation>
+        <translation>Permiso</translation>
     </message>
     <message>
         <location filename="../libpgmodeler/src/baseobject.cpp" line="50"/>
@@ -620,7 +620,7 @@
     <message>
         <location filename="../libpgmodeler/src/baseobject.cpp" line="51"/>
         <source>Tag</source>
-        <translation>Tag</translation>
+        <translation>Etiqueta</translation>
     </message>
     <message>
         <location filename="../libpgmodeler/src/baseobject.cpp" line="51"/>
@@ -630,7 +630,7 @@
     <message>
         <location filename="../libpgmodeler/src/baseobject.cpp" line="51"/>
         <source>Generic SQL</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">SQL genérico</translation>
     </message>
     <message numerus="yes">
         <location filename="../libpgmodeler/src/baseobject.cpp" line="97"/>
@@ -684,19 +684,19 @@
     <message>
         <location filename="../libpgmodeler_ui/ui/baseobjectwidget.ui" line="277"/>
         <source>This object is protected thus no change in form will be applied to it.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Este objeto está protegido, por lo que ningún cambio en el formulario se aplicará.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/baseobjectwidget.ui" line="305"/>
         <source>Disables the generated SQL code using comment tokens (--).
 This will disable the code of all child and referrer objects.</source>
-        <translation>Desactiva el código SQL generado utilizando fichas comentario (-).
+        <translation>Desactiva el código SQL generado utilizando tokens (-).
 Esto desactivará el código de todos los objetos secundarios y referenciales.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/baseobjectwidget.ui" line="309"/>
         <source>Disable SQL code</source>
-        <translation>Desactivar Código SQL</translation>
+        <translation>Desactivar código SQL</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/baseobjectwidget.ui" line="328"/>
@@ -706,7 +706,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/baseobjectwidget.ui" line="362"/>
         <source>Append or prepend a set of SQL commands to the object&apos;s definition.</source>
-        <translation>Anexar o anteponer un conjunto de comandos SQL para la definicióno bjeto&apos;s.</translation>
+        <translation>Anexar o anteponer un conjunto de comandos SQL a la definición de objeto&apos;s.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/baseobjectwidget.ui" line="365"/>
@@ -726,12 +726,12 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/baseobjectwidget.ui" line="471"/>
         <source>icone</source>
-        <translation>icone</translation>
+        <translation>icono</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/baseobjectwidget.cpp" line="170"/>
         <source>Required field. Leaving this empty will raise errors!</source>
-        <translation>Campo requerido. Dejando este vacío elevará errores!</translation>
+        <translation>Campo requerido. Dejarlo vacío generará errores!</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/baseobjectwidget.cpp" line="570"/>
@@ -763,7 +763,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libobjrenderer/src/basetableview.cpp" line="232"/>
         <source>Toggles the extended attributes display</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Activa el panel de atributos extendidos</translation>
     </message>
     <message>
         <location filename="../libobjrenderer/src/basetableview.cpp" line="445"/>
@@ -776,7 +776,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/bugreportform.ui" line="35"/>
         <source>Bug Report</source>
-        <translation>Informe Bug</translation>
+        <translation>Informe bug</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/bugreportform.ui" line="107"/>
@@ -791,12 +791,12 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/bugreportform.ui" line="146"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;Cancel</translation>
+        <translation>&amp;Cancelar</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/bugreportform.ui" line="250"/>
         <source>Use the form below to generate a complete bug report. Please, try to be as clear as possible when describing the actions that can reproduce the bug. Additionally, it&apos;s important to attach a sample database model so that the bug can be quickly discovered and fixed!</source>
-        <translation>Utilice el formulario de abajo para generar un informe completo error. Por favor, trate de ser lo más claro posible al describir las acciones que pueden reproducir el error. Adicionalmente, es importante adjuntar un modelo de base de datos de muestra para que el error puede ser descubierto y se fija rápidamente!</translation>
+        <translation>Utilice el formulario de abajo para generar un informe completo de error. Por favor, trate de ser lo más claro posible al describir las acciones que pueden reproducir el error. Adicionalmente, es importante adjuntar un modelo de base de datos de muestra para que el error pueda ser descubierto y corregido rápidamente!</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/bugreportform.ui" line="285"/>
@@ -816,7 +816,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/bugreportform.ui" line="358"/>
         <source>Select the report&apos;s output folder</source>
-        <translation>Seleccione la carpeta de destino del informes</translation>
+        <translation>Seleccione la carpeta de destino del informe</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/bugreportform.ui" line="361"/>
@@ -827,7 +827,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/bugreportform.ui" line="452"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If you prefer it&apos;s possible to report this issue anytime on pgModeler&apos;s project repository at &lt;a href=&quot;http://github.com/pgmodeler/pgmodeler/issues&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;GitHub&lt;/span&gt;&lt;/a&gt;. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si lo prefiere, se pueden informar de este tema en cualquier momento en repositorio del proyecto de pgModeler en &lt;a href=&quot;http://github.com/pgmodeler/pgmodeler/issues&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;GitHub&lt;/span&gt;&lt;/a&gt;. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si lo prefiere, es posible informar del problema en cualquier momento en el repositorio del proyecto de pgModeler en &lt;a href=&quot;http://github.com/pgmodeler/pgmodeler/issues&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;GitHub&lt;/span&gt;&lt;/a&gt;. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/bugreportform.ui" line="472"/>
@@ -837,7 +837,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/bugreportform.ui" line="511"/>
         <source>Attach the below database model file to be debugged.</source>
-        <translation>Adjunte el archivo de modelo de base de datos de abajo para depurar.</translation>
+        <translation>Adjunte el archivo de modelo de base de datos a revisar.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/bugreportform.ui" line="521"/>
@@ -847,12 +847,12 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/src/bugreportform.cpp" line="120"/>
         <source>Bug report successfuly generated! Please, send the file &lt;strong&gt;%1&lt;/strong&gt; to &lt;em&gt;%2&lt;/em&gt; in order be analyzed. Thank you for the collaboration!</source>
-        <translation>Informe de error generado exitosamente! Por favor, enviar el archivo &lt;strong&gt;%1&lt;/strong&gt; para &lt;em&gt;%2&lt;/em&gt; con el fin de analizar. Gracias por la colaboración!</translation>
+        <translation>Informe de error generado con éxito! Por favor, envíe el archivo &lt;strong&gt;%1&lt;/strong&gt; para &lt;em&gt;%2&lt;/em&gt; para poder analizarlo. Gracias por la colaboración!</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/bugreportform.cpp" line="132"/>
         <source>Load model</source>
-        <translation>cargar modelo</translation>
+        <translation>Cargar modelo</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/bugreportform.cpp" line="133"/>
@@ -870,7 +870,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/bulkdataeditwidget.ui" line="20"/>
         <source>Bulk data edit</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Edición de datos en bloque</translation>
     </message>
 </context>
 <context>
@@ -918,7 +918,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/src/castwidget.cpp" line="46"/>
         <source>The function to be assigned to a cast from &lt;em&gt;&lt;strong&gt;typeA&lt;/strong&gt;&lt;/em&gt; to &lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt;&lt;/em&gt; must have the following signature: &lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt; function(&lt;strong&gt;typeA&lt;/strong&gt;, integer, boolean)&lt;/em&gt;.</source>
-        <translation>La función que se asignará a una conversión de &lt;em&gt;&lt;strong&gt;typeA&lt;/strong&gt;&lt;/em&gt; a &lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt;&lt;/em&gt; debe tener la siguiente firma: &lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt; function(&lt;strong&gt;typeA&lt;/strong&gt;, integer, boolean)&lt;/em&gt;.</translation>
+        <translation>La función que se asignará a una conversión de &lt;em&gt;&lt;strong&gt;typeA&lt;/strong&gt;&lt;/em&gt; a &lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt;&lt;/em&gt; debe tener la siguiente estructura: &lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt; function(&lt;strong&gt;typeA&lt;/strong&gt;, integer, boolean)&lt;/em&gt;.</translation>
     </message>
 </context>
 <context>
@@ -926,12 +926,12 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/src/codecompletionwidget.cpp" line="41"/>
         <source>Make &amp;persistent</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hacer persistente</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/codecompletionwidget.cpp" line="42"/>
         <source>Makes the widget closable only by ESC key or mouse click on other controls.</source>
-        <translation>Hace que el widget se puede cerrar solamente por tecla ESC o clic del ratón sobre otros controles.</translation>
+        <translation>Hace que el widget se pueda cerrar solamente por tecla ESC o clic del ratón sobre otros controles.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/codecompletionwidget.cpp" line="453"/>
@@ -970,7 +970,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/src/collationwidget.cpp" line="30"/>
         <source>The fields &lt;strong&gt;&lt;em&gt;Collation&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;Locale&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;LC_COLLATE &amp; LC_CTYPE&lt;/em&gt;&lt;/strong&gt; are mutually exclusive, so you have to set only one of them in order to properly handle a collation.</source>
-        <translation>Los campos &lt;strong&gt;&lt;em&gt;Collation&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;Locale&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;LC_COLLATE &amp; LC_CTYPE&lt;/em&gt;&lt;/strong&gt; son mutuamente excluyentes, así que tienes que configurar sólo uno de ellos con el fin de manejar adecuadamente una colación.</translation>
+        <translation>Los campos &lt;strong&gt;&lt;em&gt;Collation&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;Locale&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;LC_COLLATE &amp; LC_CTYPE&lt;/em&gt;&lt;/strong&gt; son mutuamente excluyentes, así que tienes que configurar sólo uno de ellos para manejar adecuadamente una colación.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/collationwidget.cpp" line="39"/>
@@ -1012,17 +1012,17 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/columnwidget.ui" line="56"/>
         <source>Edit the underlying sequence&apos;s attributes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Edite los siguientes atributos de secuencia</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/columnwidget.ui" line="59"/>
         <source>Edit sequence</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Editar secuencia</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/columnwidget.ui" line="70"/>
         <source>Identity:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Identidad:</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/columnwidget.ui" line="77"/>
@@ -1032,12 +1032,12 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/columnwidget.ui" line="148"/>
         <source>&amp;NOT NULL</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">NO NULO</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/columnwidget.ui" line="87"/>
         <source>Se&amp;quence:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Se&amp;cuencia:</translation>
     </message>
 </context>
 <context>
@@ -1045,7 +1045,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/configurationform.ui" line="29"/>
         <source>pgModeler Configuration</source>
-        <translation>Configuración del pgModeler</translation>
+        <translation>Configuración de pgModeler</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/configurationform.ui" line="187"/>
@@ -1095,7 +1095,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/src/configurationform.cpp" line="126"/>
         <source>In some cases restore the default settings related to it may solve the problem. Would like to do that?</source>
-        <translation>En algunos casos, restaurar la configuración predeterminada relacionada con él puede resolver el problema. ¿Le gustaría hacer eso?</translation>
+        <translation>En algunos casos, restaurar la configuración predeterminada puede resolver el problema. ¿Le gustaría hacerlo?</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/configurationform.cpp" line="127"/>
@@ -1118,7 +1118,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/connectionsconfigwidget.ui" line="492"/>
         <source>Connection Alias:</source>
-        <translation>Alias de Conexión:</translation>
+        <translation>Alias de conexión:</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/connectionsconfigwidget.ui" line="515"/>
@@ -1148,12 +1148,12 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/connectionsconfigwidget.ui" line="794"/>
         <source>Disable</source>
-        <translation>Desactivado</translation>
+        <translation>Desactivar</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/connectionsconfigwidget.ui" line="607"/>
         <source>Diff</source>
-        <translation type="unfinished">Diff</translation>
+        <translation type="unfinished">Comparar</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/connectionsconfigwidget.ui" line="614"/>
@@ -1168,7 +1168,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/connectionsconfigwidget.ui" line="628"/>
         <source>Validation</source>
-        <translation>Validación</translation>
+        <translation>Validar</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/connectionsconfigwidget.ui" line="754"/>
@@ -1203,7 +1203,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/connectionsconfigwidget.ui" line="986"/>
         <source>Client Certificate:</source>
-        <translation>Certificado Cliente:</translation>
+        <translation>Certificado cliente:</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/connectionsconfigwidget.ui" line="957"/>
@@ -1314,7 +1314,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/connectionsconfigwidget.ui" line="537"/>
         <source>Specify additional connection parameters in the form [param]=[value]. These parameters are described in the &lt;strong&gt;libpq&lt;/strong&gt; chapter at PostgreSQL docs.</source>
-        <translation>Especifique los parámetros de conexión adicionales en la forma [param]=[valor]. Estos parámetros se describen en el capítulo &lt;strong&gt; libpq &lt;/strong&gt; en la documentación de PostgreSQL.</translation>
+        <translation>Especifique los parámetros de conexión adicionales en forma [param]=[valor]. Estos parámetros se describen en el capítulo &lt;strong&gt; libpq &lt;/strong&gt; en la documentación de PostgreSQL.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/connectionsconfigwidget.ui" line="434"/>
@@ -1324,7 +1324,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/ui/connectionsconfigwidget.ui" line="690"/>
         <source>Automatically browses the named database when using this connection to manage databases on &lt;strong&gt;Manage&lt;/strong&gt; view.</source>
-        <translation>Busca automáticamente la base de datos llamada cuando se utiliza esta conexión para administrar bases de datos en la vista &lt;strong&gt;Manage&lt;/strong&gt;.</translation>
+        <translation>Busca automáticamente la base de datos llamada cuando se utiliza esta conexión para administrar bases de datos en la vista &lt;strong&gt;Administrar&lt;/strong&gt;.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/ui/connectionsconfigwidget.ui" line="693"/>
@@ -1334,7 +1334,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/src/connectionsconfigwidget.cpp" line="38"/>
         <source>Indicates in which operations (diff, export, import or validation) the connection is used if none is explicitly specified by the user.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Indica en qué operaciones (comparación, exportación, importación o validación) se usará la conexión si no se especifica ninguna.</translation>
     </message>
     <message>
         <location filename="../libpgmodeler_ui/src/connectionsconfigwidget.cpp" line="437"/>
@@ -1344,6 +1344,7 @@ Esto desactivará el código de todos los objetos secundarios y referenciales.</
     <message>
         <location filename="../libpgmodeler_ui/src/connectionsconfigwidget.cpp" line="438"/>
         <source>Connection successfully established!
+        <translation>¡Conexión establecida con éxito!</translation>
 
 Server details:
 
@@ -4084,7 +4085,7 @@ Ref. column(s): %2</source>
     <message>
         <location filename="../libutils/src/exception.cpp" line="36"/>
         <source>Assignment of empty name to table return type!</source>
-        <translation>Asignación de nombre vacío de tipo de tabla de retorno!</translation>
+        <translation>Asignación de nombre vacío como tipo de retorno de tabla!</translation>
     </message>
     <message>
         <location filename="../libutils/src/exception.cpp" line="37"/>
@@ -4094,17 +4095,17 @@ Ref. column(s): %2</source>
     <message>
         <location filename="../libutils/src/exception.cpp" line="38"/>
         <source>The insertion of the table return type `%1&apos; will not be possible because there is another return type with the same name in the `%2&apos;!</source>
-        <translation>La inserción del tipo de tabla de retorno `%1&apos; no será posible porque hay otro tipo de retorno con el mismo nombre en el `%2&apos;!</translation>
+        <translation>La inserción del tipo de retorno de la tabla `%1&apos; no será posible porque hay otro tipo de retorno con el mismo nombre en el `%2&apos;!</translation>
     </message>
     <message>
         <location filename="../libutils/src/exception.cpp" line="39"/>
         <source>Reference to a parameter which index is out of the parameter list bounds!</source>
-        <translation>La referencia a un evento que no pertenece a disparar!</translation>
+        <translation>Referencia a un parámetro cuyo índice no está en la lista de parámetros!</translation>
     </message>
     <message>
         <location filename="../libutils/src/exception.cpp" line="40"/>
         <source>Reference to an event which does not belongs to trigger!</source>
-        <translation>La referencia a un evento que no pertenece al trigger!</translation>
+        <translation>Referencia a un evento que no pertenece al disparador!</translation>
     </message>
     <message>
         <location filename="../libutils/src/exception.cpp" line="41"/>
